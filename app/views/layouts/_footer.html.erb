@@ -1,0 +1,15 @@
+<footer class="footer">
+  <small>
+    <%= t "matched.the" %>
+    <a href="http://www.railstutorial.org/"><%= t "common.rubyonrails_tut" %></a>
+    <%= t "matched.by" %>
+    <%= link_to t(".book_author"), "http://www.michaelhartl.com"  %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".new") %><%= t("common.rails_tut_new_url") %></li>
+    </ul>
+  </nav>
+</footer>
