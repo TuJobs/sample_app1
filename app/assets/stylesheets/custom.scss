@@ -7,14 +7,6 @@ body {
   padding-top: 60px;
 }
 
-section {
-  overflow: auto;
-}
-
-textarea {
-  resize: vertical;
-}
-
 .center {
   text-align: center;
 }
@@ -23,44 +15,47 @@ textarea {
   margin-bottom: 10px;
 }
 
-/* typography */
+section {
+  overflow: auto;
+}
 
+textarea {
+  resize: vertical;
+}
+
+/* typography */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
-
 h1 {
   font-size: 3em;
-  letter-spacing: -2px;
-  margin-bottom: 30px;
   text-align: center;
-}
-
-h2 {
-  font-size: 1.2em;
-  letter-spacing: -1px;
   margin-bottom: 30px;
+  letter-spacing: -2px;
+}
+h2 {
+  color: #777;
+  font-size: 1.2em;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
 }
-
 p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
 
 /* header */
-
 #logo {
-  float: left;
-  margin-right: 10px;
-  font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
+  float: left;
+  font-size: 1.7em;
   padding-top: 9px;
   font-weight: bold;
+  margin-right: 10px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
 }
 
 #logo:hover {
@@ -69,12 +64,12 @@ p {
 }
 
 /* footer */
-
 footer {
+  color: #777;
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+
 }
 
 footer a {
@@ -98,3 +93,4 @@ footer ul li {
   float: left;
   margin-left: 15px;
 }
+
