@@ -3,13 +3,13 @@
     <%= t "matched.the" %>
     <a href="http://www.railstutorial.org/"><%= t "common.rubyonrails_tut" %></a>
     <%= t "matched.by" %>
-    <a href="http://www.michaelhartl.com/"><%=t ".book_author"%></a>
+    <a href="http://www.michaelhartl.com/"><%= t ".book_author"%></a>
   </small>
   <nav>
     <ul>
-      <li><%= link_to t(".about"),about_path %></li>
-      <li><%= link_to t(".contact"),contact_path %></li>
-      <li><%= link_to t(".new") %><%= t("common.rails_tut_new_url") %></a></li>
+      <li><%= link_to t(".about"), about_path %></li>
+      <li><%= link_to t(".contact"), contact_path %></li>
+      <li><%= link_to t(".new") %><%= t("common.rails_tut_new_url") %></li>
     </ul>
   </nav>
 </footer>
